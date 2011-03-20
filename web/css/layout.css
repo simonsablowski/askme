@@ -1,0 +1,86 @@
+/* General defintions */
+
+html, body {
+	height: 100%;
+}
+
+/* Document */
+
+#document {
+	height: auto;
+	margin: auto;
+	min-height: 100%;
+}
+
+/* Head */
+
+#head {
+	height: 18px;
+	padding: 5px 0;
+	position: relative;
+}
+
+/* Menu */
+
+#menu {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#menu .item {
+	float: right;
+	padding-right: 25px;
+	overflow: hidden;
+}
+
+/* Message */
+
+#message {
+	margin: 0 auto;
+	padding: 0 25px;
+	width: 750px;
+}
+
+/* Body */
+
+#body {
+	margin: 0 auto;
+	padding-bottom: 55px;
+}
+
+#body h2 {
+	padding: 25px 0;
+}
+
+#body input {
+	padding: 5px;
+}
+
+#body input[type="text"] {
+	width: 400px;
+}
+
+#body textarea {
+	height: 100px;
+	padding: 5px;
+	width: 400px;
+}
+
+/* Foot */
+
+#foot {
+	margin-top: -50px;
+}
+
+/* Copyright */
+
+#copyright {
+	margin-top: 22px;
+	padding: 5px 0;
+}
+
+/* Special */
+
+#body .page {
+	display: none;
+}

@@ -1,0 +1,41 @@
+/* #fff */
+
+body {
+	background-color: #fff;
+}
+
+#head a {
+	color: #fff;
+}
+
+#body input[type="submit"] {
+	color: #fff;
+}
+
+/* #eef */
+
+#body input {
+	background-color: #eef;
+}
+
+#body textarea {
+	background-color: #eef;
+}
+
+/* #9ac */
+
+#head {
+	background-color: #9ac;
+}
+
+#body a {
+	color: #9ac;
+}
+
+#body input[type="submit"] {
+	background-color: #9ac;
+}
+
+#copyright a {
+	color: #9ac;
+}
