@@ -2,7 +2,7 @@ ErrorDocument 404 index.php
 
 RewriteEngine on
 
-RewriteBase /ask.me/web
+RewriteBase /
 
 RewriteRule ^$ index.php
 

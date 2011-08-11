@@ -28,7 +28,6 @@
 					</li>
 					<li class="item">
 						<span<? if ($User->isTemporary()): ?> title="<? echo $this->localize('Temporary user name &ndash; to create a user account, hit \'Sign in\'!'); ?>"<? endif; ?>><? echo $User->getName(); ?></span>
-
 					</li>
 				</ul>
 <? if (isset($message) && !empty($message)): ?>
