@@ -2,7 +2,9 @@ ErrorDocument 404 index.php
 
 RewriteEngine on
 
-RewriteRule ^$ index.php
+RewriteBase /askme/web
+
+RewriteRule ^$ index.php [L,QSA]
 
 RewriteCond $1 !^robots\.txt
 RewriteCond %{REQUEST_FILENAME} !-f
