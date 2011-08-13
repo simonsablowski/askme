@@ -4,7 +4,7 @@ $configuration = array();
 
 $configuration['pathApplication'] = dirname(__FILE__) . '/';
 
-$configuration['basePath'] = '/';
+$configuration['basePath'] = '/askme/';
 
 $configuration['includeDirectories'] = array(
 	$configuration['pathApplication'],
