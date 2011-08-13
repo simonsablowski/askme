@@ -6,7 +6,7 @@
 		<title><? echo $this->localize('ask.me'); ?></title>
 		<link href="<? echo $this->link('css/style.css'); ?>" rel="stylesheet" title="Default" type="text/css" />
 		<!--link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon"/-->
-		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="<? echo $this->link('js/jquery-1.4.2.min.js'); ?>"></script>
 		<script type="text/javascript" src="<? echo $this->link('js/ask.me.js'); ?>"></script>
 	</head>
 	<body>
