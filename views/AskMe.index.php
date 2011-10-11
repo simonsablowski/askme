@@ -39,7 +39,7 @@
 			</div>
 			<div id="body">
 				<div id="answerQuestion" class="page">
-<? if (!is_null($Question)): ?>
+<? if (!empty($Question)): ?>
 					<h2>
 						<? echo $Question->getTitle(); ?>
 
