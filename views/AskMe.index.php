@@ -4,10 +4,10 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta http-equiv="Content-Language" content="en"/>
 		<title><? echo $this->localize('ask.me'); ?></title>
-		<link href="<? echo $this->link('web/css/style.css'); ?>" rel="stylesheet" title="Default" type="text/css" />
+		<link href="<? echo $this->link('css/style.css'); ?>" rel="stylesheet" type="text/css" />
 		<!--link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon"/-->
-		<script type="text/javascript" src="<? echo $this->link('web/js/jquery-1.4.2.min.js'); ?>"></script>
-		<script type="text/javascript" src="<? echo $this->link('web/js/ask.me.js'); ?>"></script>
+		<script type="text/javascript" src="<? echo $this->link('js/jquery-1.4.2.min.js'); ?>"></script>
+		<script type="text/javascript" src="<? echo $this->link('js/ask.me.js'); ?>"></script>
 	</head>
 	<body>
 		<div id="document">
@@ -86,7 +86,7 @@
 		</div>
 		<div id="foot">
 			<p id="copyright">
-				&copy; 2011 <a href="http://www.simsab.de" title="simsab">simsab</a>
+				&copy; 2011 <a href="http://www.simsab.net" title="simsab">simsab</a>
 			</p>
 		</div>
 	</body>
