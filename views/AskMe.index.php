@@ -37,9 +37,9 @@
 				</div>
 <? endif; ?>
 			</div>
-<? if (!is_null($Question)): ?>
 			<div id="body">
 				<div id="answerQuestion" class="page">
+<? if (!is_null($Question)): ?>
 					<h2>
 						<? echo $Question->getTitle(); ?>
 
@@ -52,6 +52,7 @@
 							<input type="submit" name="submit" value="<? echo $this->localize('Submit'); ?>"/>
 						</p>
 					</form>
+<? endif; ?>
 				</div>
 				<div id="addQuestion" class="page">
 					<h2>
@@ -82,7 +83,6 @@
 					</form>
 				</div>
 			</div>
-<? endif; ?>
 		</div>
 		<div id="foot">
 			<p id="copyright">
