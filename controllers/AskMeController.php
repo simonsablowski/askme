@@ -5,7 +5,7 @@ class AskMeController extends Controller {
 	protected $User = NULL;
 	
 	public function link($path = NULL) {
-		return $this->getConfiguration('basePath') . $path;
+		return $this->getConfiguration('baseUrl') . $path;
 	}
 	
 	protected function redirect($path = NULL) {
